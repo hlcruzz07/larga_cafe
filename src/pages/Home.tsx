@@ -10,16 +10,16 @@ import {
   faCircleQuestion,
   faQuoteLeft,
 } from "@fortawesome/free-solid-svg-icons";
-import homeImg1 from "../assets/img/home-img1.jpg";
-import homeImg2 from "../assets/img/home-img-2.jpg";
-import homeImg3 from "../assets/img/home-img-3.png";
-import homeImg4 from "../assets/img/home-img4.png";
-import homeImg5 from "../assets/img/home-img5.jpg";
-import drinks1 from "../assets/img/drinks1.png";
-import drinks2 from "../assets/img/drinks2.png";
-import homeSection2_1 from "../assets/img/home-section2-1.jpg";
-import homeBg1 from "../assets/img/home-bg.jpg";
-import homeBg2 from "../assets/img/home-bg2.jpg";
+import homeImg1 from "../assets/img/home-img1.webp";
+import homeImg2 from "../assets/img/home-img-2.webp";
+import homeImg3 from "../assets/img/home-img-3.webp";
+import homeImg4 from "../assets/img/home-img4.webp";
+import homeImg5 from "../assets/img/home-img5.webp";
+import drinks1 from "../assets/img/drinks1.webp";
+import drinks2 from "../assets/img/drinks2.webp";
+import homeSection2_1 from "../assets/img/home-section2-1.webp";
+import homeBg1 from "../assets/img/home-bg.webp";
+import homeBg2 from "../assets/img/home-bg2.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -27,10 +27,10 @@ import "swiper/swiper-bundle.css";
 import "swiper/effect-utils";
 import HorizontalCard from "../components/Home/HorizontalCard";
 import TestimonialCard from "../components/TestimonialCard";
-import icedLatte from "../assets/img/iced-latte.png";
-import buffaloWings from "../assets/img/buffalo-wings.png";
-import glazedChicken from "../assets/img/glazed-chicken.png";
-import largaCrunch from "../assets/img/larga-crunch.png";
+import icedLatte from "../assets/img/iced-latte.webp";
+import buffaloWings from "../assets/img/buffalo-wings.webp";
+import glazedChicken from "../assets/img/glazed-chicken.webp";
+import largaCrunch from "../assets/img/larga-crunch.webp";
 import DishCard from "../components/Home/DishCard";
 import FaqCont from "../components/FaqCont";
 import BlogCard from "../components/BlogCard";
@@ -474,7 +474,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url(./assets/img/home-bg5.jpg)] bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
+      <div className="relative bg-[url(./assets/img/home-bg5.webp)] bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
         <div className="w-full h-full absolute bg-black/70"></div>
         <div className="mx-6 md:mx-10 lg:mx-30 xl:mx-45 py-20 relative text-center">
           <div className="text-white">

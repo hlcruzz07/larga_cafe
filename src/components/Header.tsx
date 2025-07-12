@@ -1,4 +1,4 @@
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";

@@ -13,7 +13,7 @@ import {
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <footer className="border bg-[url(./assets/img/footer-bg.jpg)] bg-cover bg-center bg-no-repeat bg-fixed relative">
+    <footer className="border bg-[url(./assets/img/footer-bg.webp)] bg-cover bg-center bg-no-repeat bg-fixed relative">
       <div className="w-full h-full absolute bg-black/70"></div>
       <div className="mx-6 md:mx-10 lg:mx-30 xl:mx-45 my-20 relative z-10">
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-20">

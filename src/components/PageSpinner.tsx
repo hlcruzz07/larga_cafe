@@ -1,4 +1,4 @@
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.webp";
 export default function PageSpinner() {
   return (
     <div className="w-screen h-screen bg-stone-800 flex items-center justify-center overflow-hidden relative">
