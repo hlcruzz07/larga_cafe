@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-Regular.woff2")
+      format("woff2"),
+    url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-Medium.woff2")
+      format("woff2"),
+    url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-SemiBold.woff2")
+      format("woff2"),
+    url("assets/font/instrument-sans/fonts/webfonts/InstrumentSans-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@theme {
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* Remove Swiper’s default centering */
+  top: auto !important;
+  bottom: 1rem !important; /* whatever distance from bottom you like */
+  color: white !important;
+  background-color: transparent !important;
+  padding: 30px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease-in-out !important;
+  border: 2px solid gray !important;
+}
+.swiper-button-prev {
+  left: 50% !important;
+  transform: translateX(-120%) !important; /* move it left from center */
+}
+
+.swiper-button-next {
+  left: 50% !important;
+  transform: translateX(20%) !important; /* move it right from center */
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #78716c !important;
+  color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
