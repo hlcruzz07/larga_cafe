@@ -13,11 +13,14 @@ import {
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <footer className="border bg-[url(./assets/img/footer-bg.webp)] bg-cover bg-center bg-no-repeat bg-fixed relative">
+    <footer className="border bg-[url(./assets/img/footer-bg.webp)] bg-cover bg-center bg-no-repeat bg-fixed relative overflow-hidden">
       <div className="w-full h-full absolute bg-black/70"></div>
       <div className="mx-6 md:mx-10 lg:mx-30 xl:mx-45 my-20 relative z-10">
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-20">
-          <div className="text-stone-300 flex flex-col gap-5">
+          <div
+            className="text-stone-300 flex flex-col gap-5"
+            data-aos="fade-right"
+          >
             <li className="list-disc text-3xl text-amber-400">
               <span className="text-white font-serif">Our Address</span>
             </li>
@@ -51,7 +54,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="text-white flex flex-col gap-5">
+          <div className="text-white flex flex-col gap-5" data-aos="fade-right">
             <li className="list-disc text-3xl text-amber-400">
               <span className="text-white font-serif">Connect With Us</span>
             </li>
@@ -107,7 +110,7 @@ export default function Footer() {
               <p className="text-stone-400">Monday to Sunday</p>
             </div>
           </div>
-          <div className="text-white flex flex-col gap-5">
+          <div className="text-white flex flex-col gap-5" data-aos="fade-right">
             <li className="list-disc text-3xl text-amber-400">
               <span className="text-white font-serif">Quick Links</span>
             </li>
@@ -144,7 +147,7 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <div className="text-white flex flex-col gap-5">
+          <div className="text-white flex flex-col gap-5" data-aos="fade-right">
             <li className="list-disc text-3xl text-amber-400">
               <span className="text-white font-serif">Additional Pages</span>
             </li>
@@ -184,11 +187,13 @@ export default function Footer() {
         </div>
       </div>
       <hr className="text-white my-5" />
-      <p className="text-center text-white relative z-10 mb-5">
-        &copy; Copyright {new Date().getFullYear()}. All rights reserved{" "}
-        <span className="text-amber-400">Larga Café</span>. Design by{" "}
-        <span className="text-amber-400">Harold Cruz</span>.
-      </p>
+      <div className="mx-6 md:mx-10 lg:mx-30 xl:mx-45 relative z-10">
+        <p className="text-center text-white relative z-10 mb-5">
+          &copy; Copyright {new Date().getFullYear()}. All rights reserved{" "}
+          <span className="text-amber-400">Larga Café</span>. Design by{" "}
+          <span className="text-amber-400">Harold Cruz</span>.
+        </p>
+      </div>
     </footer>
   );
 }

@@ -42,25 +42,25 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-4 text-white font-medium">
           <Link
             to="/"
-            className="hover:text-amber-600 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
+            className="hover:text-amber-300 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="hover:text-amber-600 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
+            className="hover:text-amber-300 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
           >
             About
           </Link>
           <Link
             to="#"
-            className="hover:text-amber-600 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
+            className="hover:text-amber-300 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
           >
             Services
           </Link>
           <Link
             to="#"
-            className="hover:text-amber-600 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
+            className="hover:text-amber-300 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
           >
             Menu
           </Link>
@@ -72,31 +72,31 @@ export default function Header() {
             <div className="flex-col max-h-0 rounded-2xl group-hover:bg-stone-600 group-hover:max-h-screen overflow-hidden p-3 w-3xs py-1 transition-all duration-300 ease-in-out flex absolute shadow-sm">
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Blog
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Testimonials
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Gallery
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Our Team
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 FAQ's
               </Link>
@@ -104,7 +104,7 @@ export default function Header() {
           </div>
           <Link
             to="#"
-            className="hover:text-amber-600 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
+            className="hover:text-amber-300 px-3 before:absolute before:left-0 before:rounded-full relative before:border-t-4 before:bottom-[-5px] before:w-0 hover:before:w-full before:transition-all  transition-all before:ease-in-out before:duration-300 text-base"
           >
             Contact Us
           </Link>
@@ -135,65 +135,65 @@ export default function Header() {
             <div className="flex flex-col px-3 pb-3">
               <Link
                 to="/"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 About
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Services
               </Link>
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Menu
               </Link>
 
-              <div className="group">
-                <button className="text-base p-2 flex items-center">
+              <div className="group" tabIndex={0}>
+                <button className="text-base ms-2 py-2 flex items-center cursor-pointer hover:text-amber-300 transition-all ease-in-out duration-300 hover:translate-x-2 group-focus-within:translate-x-2">
                   Pages
                   <FontAwesomeIcon
                     icon={faChevronDown}
                     className="ms-2 text-xs"
                   />
                 </button>
-                <div className="ms-3 flex-col group-focus-within:max-h-screen overflow-hidden transition-all duration-300 ease-in-out flex">
+                <div className="ms-3 flex-col max-h-0 group-focus-within:max-h-screen group-focus-within:translate-x-2 overflow-hidden transition-all duration-300 ease-in-out flex ">
                   <Link
                     to="#"
-                    className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                    className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
                   >
                     Blog
                   </Link>
                   <Link
                     to="#"
-                    className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                    className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
                   >
                     Testimonials
                   </Link>
                   <Link
                     to="#"
-                    className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                    className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
                   >
                     Gallery
                   </Link>
                   <Link
                     to="#"
-                    className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                    className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
                   >
                     Our Team
                   </Link>
                   <Link
                     to="#"
-                    className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                    className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
                   >
                     FAQ's
                   </Link>
@@ -202,14 +202,14 @@ export default function Header() {
 
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Contact Us
               </Link>
 
               <Link
                 to="#"
-                className="hover:text-amber-600 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
+                className="hover:text-amber-300 hover:translate-x-2 transition-all ease-in-out duration-300 text-base p-2"
               >
                 Get Started
               </Link>
